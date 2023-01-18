@@ -1,0 +1,28 @@
+{
+  "name": "backend_negocio",
+  "version": "1.0.0",
+  "description": "Actividad de prueba para comprobar conocimientos sobre bases de datos, lenguaje javascrip y node.js y otras tecnologias para la creacion y desarrollo de back-end",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daniel-xplorer/Prueba-Backend-Negocio.git"
+  },
+  "author": "Daniel Lozano Amado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Daniel-xplorer/Prueba-Backend-Negocio/issues"
+  },
+  "homepage": "https://github.com/Daniel-xplorer/Prueba-Backend-Negocio#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mysql2": "^3.0.1",
+    "nodemon": "^2.0.20",
+    "sequelize": "^6.28.0"
+  }
+}
